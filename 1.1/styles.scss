@@ -1,0 +1,44 @@
+.b-interface {
+  width: 450px;
+  border: 1px solid #000;
+  padding: 0.5em;
+  margin: 100px auto;
+
+  &__title {
+    text-align: center;
+  }
+
+
+  hr {
+    margin: 30px 0;
+  }
+
+  &__result {
+    margin: 50px;
+    margin-left: 5%;
+  }
+} 
+
+.c-app {
+  &__inputs-container {
+    display:flex;
+    column-gap: 5px;
+
+    input {
+      padding: 0.5em;
+      outline: none;
+    }
+  }
+
+
+  
+  &__button {
+    background-color: green;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    padding: 0.5em;
+  }
+}
